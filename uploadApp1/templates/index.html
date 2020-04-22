@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+ background: url(https://cdn6.f-cdn.com/contestentries/1370548/19120511/5b4d43f5c58ce_thumb900.jpg) no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+        }
+       </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<body>
+    <center>
+
+    <h1>Document Upload</h1>
+    <br>
+    <br>
+    <br>
+    
+    <form action="upload" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="image" >
+        <input type="submit" value="Submit">
+    </center>
+</body>
+
+</html>
